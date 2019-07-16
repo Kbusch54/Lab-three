@@ -6,7 +6,7 @@ public class LabThree {
 		// asking user to enter number
 		Scanner scan = new Scanner(System.in);
 		int userIn;
-		System.out.println("Enter your name");
+		System.out.println("Enter your name?");
 		String name;
 		name = scan.next();
 		String con;
@@ -40,7 +40,7 @@ public class LabThree {
 			}
 
 			else {
-				System.out.println(name+ "that number entered not valid");
+				System.out.println(name+ " that number entered is not valid");
 			}
 		}
 
