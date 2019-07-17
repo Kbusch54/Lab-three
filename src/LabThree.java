@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class LabThree {
 
 	public static void main(String[] args) {
-		// asking user to enter number
+		//scanner and declaring variables 
 		Scanner scan = new Scanner(System.in);
 		int userIn;
 		System.out.println("Enter your name?");
@@ -29,6 +29,7 @@ public class LabThree {
 					System.out.println(userIn + " odd");
 
 				}
+//				exiting while loop
 				System.out.println(name+" would you like to continue? Type either yes or no.");
 				con = scan.next();
 				if (con.equalsIgnoreCase("yes")) {
@@ -38,7 +39,7 @@ public class LabThree {
 					cont = false;
 				}
 			}
-
+// if the first if statement is not true
 			else {
 				System.out.println(name+ " that number entered is not valid");
 			}
